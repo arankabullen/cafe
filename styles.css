@@ -1,0 +1,79 @@
+h1, h2, p{
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+h1{
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h2{
+    font-size: 30px
+}
+
+body{
+    background-image: url(https://i.etsystatic.com/11810216/r/il/784e58/1450781238/il_794xN.1450781238_cwj9.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.established{
+    font-style: italic
+}
+
+hr{
+    height: 2px;
+    background-color: rgb(223, 222, 222);
+    border-color:rgb(223, 222, 222);
+}
+
+.flavor, .dessert{
+    width: 75%;
+    text-align: left;
+}
+
+.price{
+    width: 25%;
+    text-align: right;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size:18px;
+}
+
+.menu{
+    width: 80%;
+    max-width: 500px;
+    background-color: palevioletred;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+   
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer{
+    font-size: 14px;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:visited{
+    color: black;
+  }
+  a:hover{color:white;}
+  a:active{color:white;}
